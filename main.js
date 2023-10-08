@@ -1,5 +1,21 @@
-function tocaSomPom() {
-    document.querySelector('#som_tecla_pom').play();
+function tocaSom(idElementoAudio) {
+
+    document.querySelector(idElementoAudio).play();
 }
 
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+const KeyList = document.querySelectorAll('.tecla');
+
+let contador = 0;
+
+//enquanto
+while (contador < KeyList.length) {
+
+    KeyList[contador].onclick = function () {
+        tocaSom('#som_tecla_pom')
+    }
+
+    contador = contador + 1;
+
+    console.log(contador);
+
+}
