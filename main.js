@@ -11,7 +11,7 @@ let contador = 0;
 while (contador < KeyList.length) {
 
     KeyList[contador].onclick = function () {
-        tocaSom('#som_tecla_pom')
+        tocaSom('#som_tecla_bonk')
     }
 
     contador = contador + 1;
