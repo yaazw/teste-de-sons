@@ -1,31 +1,31 @@
 :root {
-  --cinza: #828282;
-  --azul: #386f94;
   --azul-escuro: #002944;
+  --azul: #386f94;
   --branca: #b5b8bb;
-  --luz: rgb(19, 161, 255);
+  --cinza: #828282;
+  --luz: rgb(23, 161, 253);
 }
 
 body {
   align-items: center;
   background: linear-gradient(45deg, #808d96 0%,#0a213d 100%);
   display: flex;
-  justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
+  justify-content: center;
   min-height: 100vh;
 }
 
 h1 {
   color: var(--branca);
-  margin-bottom: 20px;
   font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 .teclado {
   background: linear-gradient(to bottom, #315b7e 0%,#cccccc 100%);
-  box-shadow: 6px 8px 0 6px #25455f, 10px 10px 10px #000;
   border-radius: 30px;
+  box-shadow: 6px 8px 0 6px #25455f, 10px 10px 10px #000;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
@@ -38,9 +38,9 @@ h1 {
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--azul);
   cursor: pointer;
-  height: 120px;
   font-size: 1.75em;
   font-weight: bold;
+  height: 120px;
   line-height: 120px;
   text-align: center;
   width: 120px;
@@ -57,8 +57,8 @@ h1 {
 
 .tecla.focus,
 .tecla:focus {
-  outline: none;
   box-shadow: 1px 1px 10px var(--luz);
+  outline: none;
 }
 
 .tecla.active:focus,
