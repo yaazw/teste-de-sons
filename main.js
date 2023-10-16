@@ -19,7 +19,7 @@ for (let contador = 0; contador < KeyList.length; contador++) {
 
         console.log(event.code == 'Space')
 
-        if (event.code == 'Space,') {
+        if (event.code === 'Space,') {
             tecla.classList.add('ativa');    
         }
 
