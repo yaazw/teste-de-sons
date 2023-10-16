@@ -23,6 +23,10 @@ for (let contador = 0; contador < KeyList.length; contador++) {
             tecla.classList.add('ativa');    
         }
 
+        if (event.code === 'Enter') {
+            tecla.classList.add('ativa');
+        }
+
     }
 
     tecla.onkeyup = function () {

@@ -1,7 +1,7 @@
 :root {
   --azul-escuro: #002944;
   --azul: #386f94;
-  --branca: #b5b8bb;
+  --branca: #b8b5b5;
   --cinza: #828282;
   --luz: rgb(23, 161, 253);
 }
@@ -60,8 +60,8 @@ h1 {
     #042d5c,
     #ff8a2b,
     #fffc32,
-    #66ff2a,
-    #27ffdb,
+    #85ff54,
+    #3dffdf,
     #2a4eff,
     #9029ff,
     #ff29d1,
