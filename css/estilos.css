@@ -76,7 +76,7 @@ h1 {
   -webkit-filter: blur(5px);
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  animation: glowing-button-tecla 20s linear infinite;
+  animation: glowing-button-tecla 15s linear infinite;
   transition: opacity 0.1s ease-in-out;
   border-radius: 30px;
 }
